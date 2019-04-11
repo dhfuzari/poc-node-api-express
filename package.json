@@ -1,0 +1,28 @@
+{
+  "name": "node-api-express",
+  "version": "1.0.0",
+  "description": "Node project API with express framework",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhfuzari/node-api-express.git"
+  },
+  "keywords": [],
+  "author": "Daniel Henrique Fuzari <dhfuzari@gmail.com> (https://www.dhfuzari.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhfuzari/node-api-express/issues"
+  },
+  "homepage": "https://github.com/dhfuzari/node-api-express#readme",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.11"
+  }
+}
