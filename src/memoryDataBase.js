@@ -5,7 +5,23 @@ const sequence = {
   }
 }
 
-const products = {};
+const products = {
+  "1": {
+    "name": "Pencil",
+    "price": "5.80",
+    "id": 1
+  },
+  "2": {
+    "name": "Google Pixel Slate",
+    "price": "850.00",
+    "id": 2
+  },
+  "3": {
+    "name": "Google Pixel",
+    "price": "540.00",
+    "id": 3
+  }
+}
 
 function saveProduct(prod) {
   if (!prod.id) prod.id = sequence.id;

@@ -40,5 +40,5 @@ app.delete('/product/:id', (req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log(`### Server listening to port 3003`);
+  console.log(`### Server listening to port 3003 ###`);
 });
