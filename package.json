@@ -1,7 +1,7 @@
 {
   "name": "node-api-express",
   "version": "1.0.0",
-  "description": "Node project API with express framework",
+  "description": "Node CRUD API with express framework",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon",
